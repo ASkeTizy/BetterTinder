@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ResultFragment"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLikes"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:layout_height="0dp" />
+    <FrameLayout
+        android:id="@+id/innocentKilled"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E90A0A"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/you_kill_so_much_people_try_again"
+            android:textSize="40sp" />
+        <FrameLayout
+            android:id="@+id/killerKilled"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#008000"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="You find tue killer"
+                android:textSize="40sp" />
+
+        </FrameLayout>
+        <com.example.bettertinder.views.custom.CanvasHomeButton
+            android:id="@+id/homeButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="6dp" />
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

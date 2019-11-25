@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BetterTinder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ha_loser">Ha, loser!</string>
+    <string name="you_kill_so_much_people_try_again">You kill so much people try again</string>
+</resources>
